@@ -24,6 +24,9 @@ public class HelloWorldActivityTest extends ActivityInstrumentationTestCase2<Hel
         assertTrue("first test says true", true);
     }
 
+    public void testDummy(){
+        assertTrue("ok", true);
+    }
     public void testWelcomeMessageIsOk() {
         HelloWorldActivity act = getActivity();
         assertNotNull(act);
